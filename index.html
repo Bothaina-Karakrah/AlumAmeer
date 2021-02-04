@@ -281,26 +281,6 @@
     }
   }
 
-
-  $( window ).ready(function() {
-
-    var wHeight = $(window).height();
-
-    $('.slide')
-      .height(wHeight)
-      .scrollie({
-        scrollOffset : 0,
-        scrollingOutOfView : function(elem) {
-
-          var bgColor = elem.data('background');
-
-          $('body').css('background-color', bgColor);
-
-        }
-      });
-
-  });
-
 </script>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
