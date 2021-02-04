@@ -18,16 +18,21 @@ a:hover{
   color: #ddd;
 }
 
+
+.zoom:hover{
+  color: #34495e;
+  transform: scale(1.5);
+}
+
 /*////////////////////////////////////////////////////////*/
 /* ////////////////CONTACT//////////////////////////// */
 /*////////////////////////////////////////////////////////*/
 #CONTACT{
   width: 100%;
-  height: 100vh;
   background-color: black;
   font-size: 1.3em;
   color: white;
-  padding: 4em 0;
+  padding: 2.25em 0;
 }
 
 #CONTACT h3{
@@ -40,14 +45,6 @@ a:hover{
   margin-left: 0.3em;
 }
 
-/* TABLET & PHONE */
-@media screen and (max-width: 1024px) {
-  #CONTACT{
-    height: 250vh;
-    font-size: 1em;
-  }
-}
-
 .details p{
   margin: 50px 0;
 }
@@ -56,10 +53,6 @@ a:hover{
   color: #ddd;
   margin: 0 1em;
   font-size: 1.7em;
-}
-
-.contact-icon:hover{
-  color: #34495e;
 }
 
 .contact-logo{
@@ -116,13 +109,23 @@ textarea.contact-form-text{
   text-align: center;
   font-size: 0.5em;
 }
+
+/* TABLET & PHONE */
+@media screen and (max-width: 1024px) {
+  #CONTACT{
+    font-size: 1em;
+  }
+  .contact-logo{
+    width: 70%;
+  }
+}
 /*////////////////////////////////////////////////////////*/
 /* ////////////////menubar/////////////////////////////// */
 .my-navbar{}
 
 #menubar{
   color: white;
-  position:fixed;
+  position:absolute;
   top: 30px;
   left: 30px;
   font-size: 40px;
@@ -135,7 +138,7 @@ textarea.contact-form-text{
   width: 0px;
   height: 100vh;
   background: rgba(0,0,0,0.6);
-  position: fixed;
+  position: absolute;
   z-index: 0;
   top: 0;
   left: 0;
@@ -146,14 +149,14 @@ textarea.contact-form-text{
 }
 
 /* TABLET */
-@media screen and (max-width: 1023px) and (min-width: 501px) {
+@media screen and (max-width: 1023px) and (min-width: 769px) {
   #sidenav{
     clip-path: circle(70% at 0% 0%);
   }
 }
 
 /* PHONE */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   #sidenav{
     clip-path: none;
   }
@@ -242,7 +245,7 @@ textarea.contact-form-text{
 }
 
 /* TABLET */
-@media screen and (max-width: 1023px) and (min-width: 621px) {
+@media screen and (max-width: 1023px) and (min-width: 769px) {
   #HOME p{
     font-size: 3em;
     margin-right: 15vh;
@@ -250,7 +253,7 @@ textarea.contact-form-text{
 }
 
 /* PHONE */
-@media screen and (max-width: 620px) {
+@media screen and (max-width: 768px) {
   #HOME p{
     font-size: 2.3em;
     margin-right: 10vh;
@@ -283,13 +286,20 @@ textarea.contact-form-text{
 /*////////////////////////////////////////////////////////*/
 .company{
   width: 100%;
-  height: 60vh;
 }
 
 .companies-icon{
-  padding: 10vh 5vh;
+  padding: 5vh 0vh;
 }
 
 .companies-photo{
+  width: 7em;
+}
+
+.klil{
+  width: 10em;
+}
+
+.tiptop{
   width: 10em;
 }

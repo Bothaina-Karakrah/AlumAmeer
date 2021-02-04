@@ -72,7 +72,7 @@
 <!-- ///////////WORK///////////////// -->
     <div class="container" id="OUR-WORK">
       <p class="Headers" data-aos="fade-up" data-aos-duration= "1500">העבודות שלנו</p>
-      
+
       <div class="row" data-aos="fade-up" data-aos-duration= "1500">
 
         <div class="col-lg-6 work-catalog">
@@ -201,13 +201,21 @@
 <div class="company container">
   <p class="Headers" data-aos="fade-up" data-aos-duration= "1500">חברות</p>
   <div class="row" data-aos="zoom-in" data-aos-duration= "1500">
-    <div class="col-bg-3 companies-icon">
+    <div class="col-md-3 col-sm-6 companies-icon">
         <!-- KLIL -->
-        <img class="companies-photo" src="photos/companies-logos/klil.png" alt="">
+        <img class="companies-photo klil" src="photos/companies-logos/klil.png" alt="">
     </div>
-    <div class="col-bg-3 companies-icon">
+    <div class="col-md-3 col-sm-6 companies-icon">
         <!-- ALOBIN -->
         <img class="companies-photo" src="photos/companies-logos/alobin.png" alt="">
+    </div>
+    <div class="col-md-3 col-sm-6 companies-icon">
+        <!-- PROFAL -->
+        <img class="companies-photo" src="photos/companies-logos/profal-logo.png" alt="">
+    </div>
+    <div class="col-md-3 col-sm-6 companies-icon">
+        <!-- TIPTOP -->
+        <img class="companies-photo tiptop" src="photos/companies-logos/logo-tiptop.png" alt="">
     </div>
   </div>
 </div>
@@ -227,8 +235,8 @@
                   <p> <i class="fas fa-mobile-alt"></i> <a href="tel:+972542514177">עבדאללה: 0542514177</a></p>
                   <p> <i class="far fa-clock"></i> <span>  </span> ימי ש-ה: 8:00-17:00</p>
 
-                  <a href="#"><i class="fab fa-facebook-f contact-icon"></i></a>
-                  <a href="#"><i class="fab fa-instagram contact-icon"></i></a>
+                  <a href="#"><i class="zoom fab fa-facebook-f contact-icon"></i></a>
+                  <a href="#"><i class="zoom fab fa-instagram contact-icon"></i></a>
 
               </div>
 
@@ -273,6 +281,26 @@
       // menubar.style.color = "gray"
     }
   }
+
+
+  $( window ).ready(function() {
+
+    var wHeight = $(window).height();
+
+    $('.slide')
+      .height(wHeight)
+      .scrollie({
+        scrollOffset : 0,
+        scrollingOutOfView : function(elem) {
+
+          var bgColor = elem.data('background');
+
+          $('body').css('background-color', bgColor);
+
+        }
+      });
+
+  });
 
 </script>
 
