@@ -112,9 +112,6 @@ textarea.contact-form-text{
 
 /* TABLET & PHONE */
 @media screen and (max-width: 1024px) {
-  #CONTACT{
-    font-size: 1em;
-  }
   .contact-logo{
     width: 70%;
   }
@@ -149,14 +146,14 @@ textarea.contact-form-text{
 }
 
 /* TABLET */
-@media screen and (max-width: 1023px) and (min-width: 769px) {
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
   #sidenav{
     clip-path: circle(70% at 0% 0%);
   }
 }
 
 /* PHONE */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   #sidenav{
     clip-path: none;
   }
@@ -212,7 +209,7 @@ textarea.contact-form-text{
 
 #HOME{
   width: 100%;
-  height: 100vh;
+  height: 80vh;
 }
 
 #HOME::after{
@@ -235,9 +232,9 @@ textarea.contact-form-text{
   color: white;
   word-spacing: 0.15em;
   font-size: 3.7em;
-  margin-top: 30vh;
-  margin-right: 15vh;
-  padding-right: 5vh;
+  margin-top: 2.5em;
+  margin-right: 1em;
+  padding-right: 0.2em;
   position: relative;
   z-index: 2;
   background-color: rgba(0, 0, 0, 0.15);
@@ -248,7 +245,7 @@ textarea.contact-form-text{
 @media screen and (max-width: 1023px) and (min-width: 769px) {
   #HOME p{
     font-size: 3em;
-    margin-right: 15vh;
+    margin-right: 0.5em;
   }
 }
 
@@ -256,7 +253,7 @@ textarea.contact-form-text{
 @media screen and (max-width: 768px) {
   #HOME p{
     font-size: 2.3em;
-    margin-right: 10vh;
+    margin-right: 0.3em;
   }
 }
 
@@ -269,6 +266,7 @@ textarea.contact-form-text{
 /*////////////////////////////////////////////////////////*/
 #OUR-WORK{
   margin-bottom: 5em;
+  margin-top: 2em;
 }
 
 .work-catalog{
@@ -278,7 +276,7 @@ textarea.contact-form-text{
 }
 
 .work-catalog img{
-  height: 90vh;
+  height: 18em;
 }
 
 /*////////////////////////////////////////////////////////*/
