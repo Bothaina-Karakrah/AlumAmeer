@@ -8,7 +8,7 @@ body{
   color: black;
   direction: rtl;
   text-align: right;
-  font-size: 1em;
+  font-size: 15px;
   font-weight: 900;
 }
 
@@ -31,7 +31,7 @@ a:hover{
 /*////////////////////////////////////////////////////////*/
 .Headers{
   padding-right: 50px;
-  font-size: 3em;
+  font-size: 50px;
   font-weight: 600;
 }
 
@@ -60,19 +60,19 @@ a:hover{
 #CONTACT{
   width: 100%;
   background-color: black;
-  font-size: 1.3em;
+  font-size: 20px;
   color: white;
-  padding: 2.25em 0;
+  padding: 50px 0;
 }
 
 #CONTACT h3{
-  font-size: 1.5em;
+  font-size: 40px;
   color: #ddd;
-  margin-bottom: 0.5em;
+  margin-bottom: 10px;
 }
 
 #CONTACT .fas{
-  margin-left: 0.3em;
+  margin-left: 10px;
 }
 
 .details p{
@@ -81,7 +81,7 @@ a:hover{
 
 .contact-icon{
   color: #ddd;
-  margin: 0 1em;
+  margin: 0 10px;
   font-size: 1.7em;
 }
 
@@ -118,7 +118,7 @@ textarea.contact-form-text{
   background: gray;
   color: black;
   padding: 12px 50px;
-  margin: 0.5em 0;
+  margin: 10px 0;
   border-radius: 20px;
   cursor: pointer;
   transition: 0.5s;
@@ -130,14 +130,14 @@ textarea.contact-form-text{
 }
 
 .rights-reserved{
-  font-size: 0.5em;
+  font-size: 20px;
   text-align: center;
 }
 
 .copyrights{
   direction: ltr;
   text-align: center;
-  font-size: 0.5em;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -152,8 +152,8 @@ textarea.contact-form-text{
 #menubar{
   color: white;
   position:absolute;
-  top: 30px;
-  left: 30px;
+  top: 40px;
+  left: 40px;
   font-size: 40px;
   cursor: pointer;
   z-index: 99;
@@ -163,7 +163,7 @@ textarea.contact-form-text{
   text-align: left;
   width: 0px;
   height: 100vh;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0,0,0,0.9);
   position: absolute;
   z-index: 0;
   top: 0;
@@ -171,12 +171,12 @@ textarea.contact-form-text{
   padding-top: 80px;
   overflow: hidden;
   transition: 0.5s ease-in-out;
-  clip-path: circle(50% at 0% 0%);
+  clip-path: circle(70% at 0% 0%);
 }
 
 #sidenav a{
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 30px;
   padding: 10px 20px;
   display: block;
   margin: 20px 40px;
@@ -187,16 +187,6 @@ textarea.contact-form-text{
   padding-left: 8px;
 }
 
-/* TABLET */
-@media screen and (max-width: 1300px) and (min-width: 1000px) {
-  #sidenav{
-    clip-path: circle(70% at 0% 0%);
-  }
-  #sidenav a{
-    font-size: 2em;
-  }
-}
-
 /* PHONE */
 @media screen and (max-width: 1000px) {
   #sidenav{
@@ -204,8 +194,7 @@ textarea.contact-form-text{
   }
 
   #sidenav a{
-    font-size: 2.5em;
-    padding: 10px 30px;
+    padding: 15px 50px;
   }
 }
 
@@ -236,53 +225,54 @@ textarea.contact-form-text{
 
 #HOME p{
   color: white;
-  word-spacing: 0.15em;
-  font-size: 4em;
-  padding-top: 2.5em;
-  margin-right: 1em;
+  word-spacing: 5px;
+  font-size: 70px;
+  margin-top: 150px;
+  padding-right: 50px;
   position: relative;
   z-index: 2;
+  background-color: rgba(0, 0, 0, 0.1);
+}
 
+.HOME-span{
+  font-size: 30px;
 }
 
 /* TABLET */
 @media screen and (max-width: 1300) and (min-width: 1000px) {
   #HOME p{
-    margin-right: 0.5em;
-    font-size: 3.3em;
+    padding-right: 30px;
+    font-size: 50px;
   }
 }
 
 /* PHONE */
 @media screen and (max-width: 1000px) {
   #HOME p{
-    font-size: 3.3em;
-    margin-right: 0.2em;
-    margin-top: 15%;
+    font-size: 40px;
+    padding-right: 15px;
   }
-}
-
-.HOME-span{
-  font-size: 0.5em;
+  .HOME-span{
+    font-size: 16px;
+  }
 }
 
 /*////////////////////////////////////////////////////////*/
 /* ////////////////OUR WORK/////////////////////////////// */
 /*////////////////////////////////////////////////////////*/
 #OUR-WORK{
-  margin-bottom: 5em;
-  margin-top: 2em;
+  margin-bottom: 80px;
 }
 
 .work-catalog{
-  font-size: 2em;
+  font-size: 40px;
   text-align: center;
-  word-spacing: 0.1em;
-  padding: 1em 1em;
+  word-spacing: 1px;
+  padding: 15px 15px;
 }
 
 .work-catalog img{
-  height: 18em;
+  height: 500px;
 }
 
 /*////////////////////////////////////////////////////////*/
@@ -290,20 +280,20 @@ textarea.contact-form-text{
 /*////////////////////////////////////////////////////////*/
 .company{
   width: 100%;
-  margin-top: 3em;
+  margin-top: 80px;
 }
 
 .companies-photo{
-  width: 7em;
-  margin: 3em 0;
+  width: 100px;
+  margin: 50px 0;
   margin-right: 50px;
 
 }
 
 .klil{
-  width: 10em;
+  width: 150px;
 }
 
 .tiptop{
-  width: 10em;
+  width: 140px;
 }
