@@ -22,8 +22,7 @@ a:hover{
 
 
 .zoom:hover{
-  color: #34495e;
-  transform: scale(1.5);
+  transform: scale(1.15);
 }
 
 /*////////////////////////////////////////////////////////*/
@@ -81,8 +80,9 @@ a:hover{
 
 .contact-icon{
   color: #ddd;
-  margin: 0 10px;
-  font-size: 1.7em;
+  margin: 0 15px;
+  width:80px;
+  height: 80px;
 }
 
 .contact-logo{
@@ -177,10 +177,14 @@ textarea.contact-form-text{
 #sidenav a{
   text-decoration: none;
   font-size: 30px;
-  padding: 10px 20px;
+  padding: 20px 0 20px 70px;
   display: block;
   margin: 20px 40px;
   color: white;
+}
+
+#sidenav a:hover{
+  zoom:105%;
 }
 
 .fa-sidenav{
@@ -238,25 +242,6 @@ textarea.contact-form-text{
   font-size: 30px;
 }
 
-/* TABLET */
-@media screen and (max-width: 1300) and (min-width: 1000px) {
-  #HOME p{
-    padding-right: 30px;
-    font-size: 50px;
-  }
-}
-
-/* PHONE */
-@media screen and (max-width: 1000px) {
-  #HOME p{
-    font-size: 40px;
-    padding-right: 15px;
-  }
-  .HOME-span{
-    font-size: 16px;
-  }
-}
-
 /*////////////////////////////////////////////////////////*/
 /* ////////////////OUR WORK/////////////////////////////// */
 /*////////////////////////////////////////////////////////*/
@@ -272,9 +257,26 @@ textarea.contact-form-text{
 }
 
 .work-catalog img{
-  height: 500px;
+  transition: transform .25s, visibility .25s ease-in;
+  width:350px;
+  padding: 30px 15px;
 }
 
+.short-photos img{
+  height: 300px;
+}
+
+.long-photos img{
+  height: 450px;
+}
+
+/* PHONE */
+@media screen and (max-width: 1000px) {
+  .work-catalog img{
+    width:300px;
+    padding: 15px 10px;
+  }
+}
 /*////////////////////////////////////////////////////////*/
 /* ////////////////COMPANY/////////////////////////////// */
 /*////////////////////////////////////////////////////////*/
