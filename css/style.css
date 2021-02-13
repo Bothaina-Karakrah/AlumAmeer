@@ -144,6 +144,9 @@ textarea.contact-form-text{
   .details{
     margin-bottom: 70px;
   }
+  .contact-logo{
+    width: 145%;
+  }
 }
 /*////////////////////////////////////////////////////////*/
 /* ////////////////menubar/////////////////////////////// */
@@ -154,7 +157,7 @@ textarea.contact-form-text{
   position:absolute;
   top: 40px;
   left: 40px;
-  font-size: 40px;
+  font-size: 45px;
   cursor: pointer;
   z-index: 99;
 }
@@ -176,7 +179,7 @@ textarea.contact-form-text{
 
 #sidenav a{
   text-decoration: none;
-  font-size: 30px;
+  font-size: 35px;
   padding: 20px 0 20px 70px;
   display: block;
   margin: 20px 40px;
@@ -195,10 +198,12 @@ textarea.contact-form-text{
 @media screen and (max-width: 1000px) {
   #sidenav{
     clip-path: none;
+    text-align: center;
   }
 
   #sidenav a{
-    padding: 15px 50px;
+    font-size: 45px;
+    padding: 20px;
   }
 }
 
@@ -221,21 +226,21 @@ textarea.contact-form-text{
   height: 100vh;
   z-index: 1;
   opacity:1.5;
-  background: url('../photos/main-page-top-photo.jpeg');
+  background: url('../photos/background.jpeg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
 #HOME p{
+  text-align: center;
   color: white;
   word-spacing: 5px;
-  font-size: 70px;
+  font-size: 100px;
   margin-top: 150px;
-  padding-right: 50px;
   position: relative;
   z-index: 2;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 .HOME-span{
@@ -258,8 +263,8 @@ textarea.contact-form-text{
 
 .work-catalog img{
   transition: transform .25s, visibility .25s ease-in;
-  width:350px;
-  padding: 30px 15px;
+  width:380px;
+  padding: 30px 10px;
 }
 
 .short-photos img{
@@ -273,7 +278,7 @@ textarea.contact-form-text{
 /* PHONE */
 @media screen and (max-width: 1000px) {
   .work-catalog img{
-    width:300px;
+    width:350px;
     padding: 15px 10px;
   }
 }
@@ -285,10 +290,13 @@ textarea.contact-form-text{
   margin-top: 80px;
 }
 
+.company .row{
+  text-align: center;
+}
+
 .companies-photo{
   width: 100px;
   margin: 50px 0;
-  margin-right: 50px;
 
 }
 
