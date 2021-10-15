@@ -22,7 +22,7 @@ a:hover{
 
 
 .zoom:hover{
-  transform: scale(1.15);
+  transform: scale(1.25);
 }
 
 /*////////////////////////////////////////////////////////*/
@@ -251,7 +251,7 @@ textarea.contact-form-text{
 /* ////////////////OUR WORK/////////////////////////////// */
 /*////////////////////////////////////////////////////////*/
 #OUR-WORK{
-  margin-bottom: 80px;
+  margin-bottom: 50px;
 }
 
 .work-catalog{
@@ -263,17 +263,11 @@ textarea.contact-form-text{
 
 .work-catalog img{
   transition: transform .25s, visibility .25s ease-in;
-  width:380px;
+  width:350px;
+  height: 550px;
   padding: 30px 10px;
 }
 
-.short-photos img{
-  height: 300px;
-}
-
-.long-photos img{
-  height: 450px;
-}
 
 /* PHONE */
 @media screen and (max-width: 1000px) {
@@ -282,13 +276,6 @@ textarea.contact-form-text{
     padding: 15px 10px;
   }
 
-  .short-photos img{
-    height: 200px;
-  }
-
-  .long-photos img{
-    height: 300px;
-  }
 }
 /*////////////////////////////////////////////////////////*/
 /* ////////////////COMPANY/////////////////////////////// */
